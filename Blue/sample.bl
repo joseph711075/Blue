@@ -1,0 +1,96 @@
+FILE BlueProject
+START
+
+Integer i, j, k, N ,M;
+Float beta5x, alpha, cna;
+
+FUNC Integer fun(Integer o, Integer p)
+Integer sum;
+{
+	sum = o + p;
+	printf("value of sum: %d\n", sum);
+	
+	
+}	RETURN sum
+
+FUNC Float fun1(Float o, Float p)
+Float sum;
+{
+	sum = o + p;
+	printf("value of sum: %f\n", sum);
+	
+	
+}	RETURN sum
+
+
+MAIN 
+{
+
+	i = 23;
+	printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+    j = i;
+    printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+    i = -2 + 3*j;
+    printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+    i = j;
+    printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+    N = 3;
+    printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+    M = 3;
+    printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+    alpha = 91.33;
+    printf("cna = %f, beta5x = %f, alpha = %f\n", cna, beta5x, alpha);
+    beta5x = alpha;
+    printf("cna = %f, beta5x = %f, alpha = %f\n", cna, beta5x, alpha);
+    beta5x = alpha/3.7 - alpha*2.88;
+    printf("cna = %f, beta5x = %f, alpha = %f\n", cna, beta5x, alpha);
+    beta5x = 8.45*(alpha + 9.12);
+    printf("cna = %f, beta5x = %f, alpha = %f\n", cna, beta5x, alpha);
+
+	j = j + 1;
+
+	WHEN(j == 24)
+    {
+    	j = 6;
+    };
+	
+	LOOP(j <= 10)
+	{
+		j = j+1;
+		
+	};
+	
+
+	
+	printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+	
+	k = fun(i, j);
+	
+	printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);	
+	
+	k = fun(k, M);
+	
+	printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);	
+	
+	k = fun(k, N);
+	
+	printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+	
+	printf("cna = %f, beta5x = %f, alpha = %f\n", cna, beta5x, alpha);
+	
+	cna = fun1(beta5x, alpha);
+	
+	printf("cna = %f, beta5x = %f, alpha = %f\n", cna, beta5x, alpha);
+	
+	i = 2 * 4 + 10 * 2;
+	printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+	
+	j = 5 + (5 + 3) * 4;
+	printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+	
+	k = 3 + 4 * 4 + 6;
+	printf("i = %d, j = %d, k = %d, N = %d, M = %d\n", i, j, k, N, M);
+	
+}
+
+TERMINATE

@@ -1,0 +1,25 @@
+i = 23, j = 0, k = 0, N = 0, M = 0
+i = 23, j = 23, k = 0, N = 0, M = 0
+i = 67, j = 23, k = 0, N = 0, M = 0
+i = 23, j = 23, k = 0, N = 0, M = 0
+i = 23, j = 23, k = 0, N = 3, M = 0
+i = 23, j = 23, k = 0, N = 3, M = 3
+cna = 0.000000, beta5x = 0.000000, alpha = 91.330002
+cna = 0.000000, beta5x = 91.330002, alpha = 91.330002
+cna = 0.000000, beta5x = -238.346649, alpha = 91.330002
+cna = 0.000000, beta5x = 848.802490, alpha = 91.330002
+i = 23, j = 11, k = 0, N = 3, M = 3
+value of sum: 34
+i = 23, j = 11, k = 34, N = 3, M = 3
+value of sum: 37
+i = 23, j = 11, k = 37, N = 3, M = 3
+value of sum: 40
+i = 23, j = 11, k = 40, N = 3, M = 3
+cna = 0.000000, beta5x = 848.802490, alpha = 91.330002
+value of sum: 940.132507
+cna = 940.132507, beta5x = 848.802490, alpha = 91.330002
+i = 28, j = 11, k = 40, N = 3, M = 3
+i = 28, j = 37, k = 40, N = 3, M = 3
+i = 28, j = 37, k = 25, N = 3, M = 3
+
+                0.03 seconds total execution time.
